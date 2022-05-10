@@ -1,0 +1,108 @@
+Proje 3
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+
+root=7
+Adım1
+5 sayısı 7'den küçük olduğundan 7'nin soluna eklenir.
+      7
+     /
+    5
+
+Adım2
+1 sayısı 5'ten ve 7'den küçük olduğunda 7 ve 5'in soluna eklenir.
+     7
+    /
+   5
+  /
+ 1
+
+Adım3
+8 sayısı 7'den büyük olduğunda 7'nin sağına eklenir.
+     
+     7
+    / \
+   5   8
+  /
+ 1
+
+Adım4
+3 sayısı 7'den ve 5'ten küçük olduğunda 5'in soluna, 1'den büyük olduğunda 1'in sağına eklenir.
+ 
+     7
+    / \
+   5   8
+  /
+ 1
+  \
+    3
+ 
+ Adım5
+ 6 sayısı 7'den küçük olduğunda 7'nin soluna, 5'ten büyük olduğunda 5'in sağına eklenir.
+  
+     7
+    / \
+   5   8
+  / \
+ 1   6
+  \
+   3
+    
+Adım6  
+0 sayısı 7'den, 5'ten ve 1'den küçük olduğunda 1'in soluna eklenir.
+  
+      7
+     / \
+    5   8
+   / \
+  1   6
+ / \
+0   3
+
+Adım7
+9 sayısı 7'den ve 8'den büyük olduğunda 8'in sağına eklenir.
+
+      7
+     / \
+    5   8
+   / \   \
+  1   6   9
+ / \
+0   3
+
+Adım8
+4 sayısı 7'den ve 5'ten küçük olduğunda 5'in soluna, 1'den ve 3'ten büyük olduğunda 3'ün sağına eklenir.
+
+      7
+     / \
+    5   8
+   / \   \
+  1   6   9
+ / \
+0   3
+     \
+      4
+ 
+Adım9
+2 sayısı 7'den ve 5'ten küçük olduğunda 5'in soluna, 1'den büyük olduğunda 1'in sağına ve 3'ten küçük olduğunda 3'ün soluna eklenir.
+ 
+      7
+     / \
+    5   8
+   / \   \
+  1   6   9
+ / \
+0   3
+   / \
+  2   4
+ 
+ 
+
+
+
+  
+  
+  
+  
